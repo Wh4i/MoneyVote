@@ -1,0 +1,25 @@
+"MoneyAmount"
+{
+	"*"	// -> every maps
+	{
+		"1"		"1000"		
+		"2"		"2000"
+		"3"		"3000"
+		"4"		"5000"
+		"5"		"10000"
+		"6"		"30000"
+		//"7"		"0"	// If they don't want because they are maybe too dumb, too brave or don't want //Note : included by default in the code
+	}
+	"mvm_coaltown"
+	{
+
+	}
+	"mvm_bigrock"
+	{
+
+	}
+	"mvm_decoy"
+	{
+
+	}
+}
