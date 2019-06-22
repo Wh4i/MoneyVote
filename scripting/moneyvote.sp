@@ -7,7 +7,7 @@
 
 #pragma newdecls required
 
-#define DEBUG 1
+#define DEBUG 0
 
 public Plugin myinfo = 
 {
