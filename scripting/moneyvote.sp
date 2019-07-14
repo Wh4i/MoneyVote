@@ -312,12 +312,12 @@ public Action Command_VoteMoney(int iClient, int iArgs)
 			//g_iTimer = GetEngineTime();
 			g_bCAnVote = false;
 		}
+		else
+			ReplyToCommand(iClient, "[SM] Money vote available only when you fail at least %i time(s) row the wave", g_iWaveFailedStart);
 	}
 	else
-	{
 		ReplyToCommand(iClient, "[SM] Usage: sm_votemoney");
-		return Plugin_Handled;
-	}
+
 	return Plugin_Handled;
 }
 
