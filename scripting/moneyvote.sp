@@ -7,7 +7,7 @@
 
 #pragma newdecls required
 
-#define DEBUG 1
+#define DEBUG 0
 
 public Plugin myinfo = 
 {
@@ -15,7 +15,7 @@ public Plugin myinfo =
 	author = 			"Whai",
 	description = 		"Vote the amount of money wanted to earn",
 	version = 		PLUGIN_VERSION,
-	url = 			""
+	url = 			"https://github.com/Wh4i/TF2MvM-MoneyVote/blob/master"
 };
 
 float g_fTimerInterval, g_fCountdownSec;
