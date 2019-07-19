@@ -1,6 +1,6 @@
 #pragma semicolon 1
 
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "1.0.5"
 
 #include <sourcemod>
 #include <sdktools>
@@ -15,7 +15,7 @@ public Plugin myinfo =
 	author = 			"Whai",
 	description = 		"Vote the amount of money wanted to earn",
 	version = 		PLUGIN_VERSION,
-	url = 			"https://github.com/Wh4i/TF2MvM-MoneyVote/blob/master"
+	url = 			"https://github.com/Wh4i/TF2MvM-MoneyVote"
 };
 
 float g_fTimerInterval, g_fCountdownSec;
