@@ -420,7 +420,7 @@ stock bool IsEntityClient(int iEntity)
 	return false;
 }
 
-stock bool IsValidClient(int iEntity, bool bFilterBots = false, bool bFilterSourceTV = true, bool bFilterAlive = true)
+stock bool IsValidClient(int iEntity, bool bFilterBots = false, bool bFilterSourceTV = true, bool bFilterAlive = false)
 {
 	if(!IsEntityClient(iEntity))
 		return false;
